@@ -1,0 +1,13 @@
+*{
+    text-decoration: none;
+    font-family: "Agency FB";
+}
+h1{
+        color:lime;
+        font-size: 3em;
+}
+    /*Geen gebruik maken van pixels voor font grote*/
+p{
+        font-size: 2em;
+        text-align: center;
+}
