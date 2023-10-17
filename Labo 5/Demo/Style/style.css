@@ -1,0 +1,45 @@
+
+h1,h2{
+        color:red;
+}
+
+
+    /*Geen gebruik maken van pixels voor font grote*/
+p{
+        font-size: 2em;
+}
+/*Een Klasse --> meerdere keren in  html gebruiken*/
+.styleBlue{
+    color: blue;
+    font-size: 4em;
+}
+/*id --> 1 keer in  html gebruiken*/
+#opmaak{
+   color: yellow;
+}
+/*Groter dan teken --> onmiddelijk onder parent zitten*/
+section>span>h1{
+    color: green;
+    font-size: 5em;
+}
+
+/*DOM(ancestors(voorouders -parents(ouder) - children()-descendents(afstammelingen)-Siblings(gelijke) )
+Document Object Model --> element manipuleren in Html.
+    Elk website --> tree.
+    Elk element heeft relatie met een element.
+    1 ouder hebben.
+
+Soorten Elementen
+1. Element-selector
+    Enkelvoudig-selector (h1{color:red;})
+    Meervoudig-selector (h1,h2{color:red;})
+2. Descendent-Selector (p em{color:green;}) :
+    em moet een descendent zijn van p om het kleur green te hebben.
+3. Child-Selector(p > em{color: red;})
+    em moet onmiddelijk onder p staan--> em is een kind va p.
+4. Adjacent sibling Selector(h1 + h2{ margin-top: 20px})
+    ommiddelijk na h1.
+
+Volgende les -> positioning
+
+*/
