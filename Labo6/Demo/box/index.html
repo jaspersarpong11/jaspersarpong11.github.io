@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        body{
+            background-color: antiquewhite;
+            margin: 0px ;
+            font-size: 5em;
+            border: 2px solid red;
+            background-color: beige;
+            /*Border en chldren niet geven aan kinderen*/
+            width: 95%; /*no pixels*/
+            margin: 0px auto;
+        }
+        h1{
+            background-color: red;
+            width: 150px;
+            border: 5px solid black;
+            padding: 20px 50px 40px 100px; /*top - rechts - bottom - left | neemt kleur van inhoud*/
+            padding: 50px 100px; /* top/bottom dan left/right --> laatste bepaald*/
+            /* margin-left: 50px neemt l-kleur van parent - transparant*/;
+            margin:10px auto;
+        }
+        p {
+            background-color: blue;
+        }
+        img{
+            margin: auto;
+            width: 300px;
+            height: auto  ;
+          display: block;
+
+        }
+    </style>
+</head>
+<body>
+<!--
+Padding:
+Margin: hoeveeel afstand ten opzichte van andere elementen
+    Twee elementen
+    - Blok: volledig breedt van pagina -> p , h1, ul , footer - new regel
+        boxmodel -> width;
+    - inline: span - image - a -> van buiten
+
+--->
+
+<h1>VIVES</h1>
+<img src="https://static.standard.co.uk/2023/10/06/19/64d3c74aabb5564c3fda8161f4ea244fY29udGVudHNlYXJjaGFwaSwxNjk2NzAyMjI2-2.45036236.jpg?width=1200&auto=webp&quality=75" alt="">
+<p>sdqfbqsdghqsgoqsdgsdgn sbdgzdlg sdgsdgkbsdgsdqg sdgmosdgz</p>
+</body>
+</html>

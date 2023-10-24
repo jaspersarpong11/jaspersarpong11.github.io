@@ -7,6 +7,9 @@ h1{
     font-size: 4em;
     background-color: red;
 }
+p{
+    background-color: lightblue;
+}
 /*pseudo element selector*/
 p:first-letter{
     font-size: 5em;
