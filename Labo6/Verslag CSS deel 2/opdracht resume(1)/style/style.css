@@ -1,0 +1,29 @@
+body{
+    font-family: Helvetica;
+
+}
+h1{
+    font-size: 80px;
+}
+h2{
+    font-size: 40px;
+}
+h1,h2{
+ color:#EDF2F4;
+}
+header{
+    margin-bottom: 10px;
+}
+.education{
+    padding: 30px;
+    background-color: #8D99AE;
+}
+header,footer{
+    padding: 30px;
+    background-color: #2B2D42;
+    color:#8D99AE;
+}
+
+footer{
+    margin-top: 10px;
+}
