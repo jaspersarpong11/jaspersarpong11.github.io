@@ -1,0 +1,18 @@
+/*Child slector wint -> Hoog specifiteit*/
+/*0002*/
+header h1{
+    color:beige;
+}
+/*0012*/
+header.hoofd h1{
+    color:grey;
+}
+/*Bij conflict laatste wint*/
+h1{
+    color:red;
+    /*0001*/
+}
+h1{
+    color:blue;
+    s
+}
