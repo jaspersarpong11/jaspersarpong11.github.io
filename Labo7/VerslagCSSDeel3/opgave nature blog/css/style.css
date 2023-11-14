@@ -4,22 +4,25 @@ body{
     width: 95%;
     margin: auto;
     border: 2px solid blue;
-    padding:0px 5px;
+    padding: 5px;
 }
 
 section > header{
     margin: 0px;
     height: 100px;
     color: white;
+    padding: 5px;
     background-image: url("../images/header.jpg");
     background-repeat: repeat;
     background-size: cover;
 }
 section > header h1{
     margin: 0px;
+  font-weight: bolder;
 }
 section > nav{
     background-color: rgb(80, 80, 80);
+    padding: 5px;
 }
 section > nav a{
     text-decoration: none;
@@ -27,13 +30,15 @@ section > nav a{
     font-weight: bolder;
 }
 article{
-    margin: 0px;
+    margin-top: 5px;
+    padding: 5px;
     background-color: lightgrey;
 }
 
 article header h1{
-    margin-top: 5px;
     color: grey;
+    font-size: 1.5em;
+    font-weight: bolder;
     text-decoration: underline;
 
 }
