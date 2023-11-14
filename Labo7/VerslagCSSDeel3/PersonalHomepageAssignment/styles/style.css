@@ -1,0 +1,81 @@
+body{
+    width: 90%;
+    margin: 0px auto;
+}
+/*Section*/
+section{
+    margin: 0px;
+}
+
+section  >header h1{
+    text-align: center;
+    font-size: 2em;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+/*Article*/
+article{
+    margin-top: 5px;
+    padding: 5px;
+    background-color: aliceblue;
+}
+
+article header > h2{
+    text-align: center;
+    color: grey;
+    font-size: 1.5em;
+    font-style: italic;
+    text-transform: uppercase;
+}
+article figure img{
+    border-radius: 10px;
+    display: block;
+    margin:auto;
+}
+article ul li a{
+    text-decoration: none;
+    color: grey;
+}
+article ul li a:hover{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+table, th, tr, td{
+    margin: auto;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+article table thead{
+    color: grey;
+    text-decoration: black underline;
+}
+
+ td{
+     font-style: italic;
+ }
+ td a{
+     text-decoration: none;
+     color: grey;
+ }
+ td a:hover{
+     font-weight: bolder;
+     text-decoration: underline;
+ }
+/*een class*/
+.afbeelding{
+    width: 150px;
+    height: auto;
+}
+/*footer*/
+footer {
+    background-color: aliceblue;
+    margin: 0px;
+}
+footer p{
+    margin: 0px;
+    text-align: center;
+    color: grey;
+}
+
