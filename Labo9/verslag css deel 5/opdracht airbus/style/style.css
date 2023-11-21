@@ -1,0 +1,102 @@
+
+body{
+    width: 95%;
+    margin: auto;
+    border: 2px solid black;
+}
+/*Header*/
+header{
+    height: 200px;
+    background-image: url("../images/bgsky3.jpg");
+    text-align: center;
+    color: darkblue;
+}
+header p:nth-child(1){
+    font-size: 300%;
+    font-style: italic;
+    font-weight: bold;
+}
+header p:nth-child(2){
+    font-size: 240%;
+    font-weight: bold;
+
+}
+header img{
+    position: relative;
+    left: 90px;
+    bottom:60px
+}
+
+/*news*/
+aside{
+    width: 25%;
+    background: #dddddd;
+    border: 1px solid #999999;
+
+}
+aside p{
+    color: #666666;
+    width: 90%;
+    padding: 10px;
+}
+
+aside h3{
+    color: white;
+    background: blue;
+    font-size: 120%;
+    text-align: center;
+}
+
+/*main*/
+section{
+    width: 75%;
+}
+
+section > article{
+    background-color: white;
+    color: black;
+   padding: 20px 30px;
+}
+
+section > article p{
+    text-align: justify;
+}
+section > figure{
+    padding: 20px;
+    padding-top: 20px;
+}
+
+/*Gallery*/
+.gallery{
+background-color: #999999;
+}
+.gallery figure {
+
+}
+.gallery figure img{
+    border: 1px dashed white;
+    background-color: white;
+    padding: 10px;
+    border: 1px dashed #999999 ;
+    margin-left: 10px;
+}
+
+/*Bottom*/
+.bottom{
+    background-color: #666666;
+    color: white;
+    line-height: 2ems;
+}
+.bottom article{
+    margin-left: 120px;
+}
+.bottom article a:hover{
+    color: red;
+}
+/*Copyright*/
+footer{
+    bottom: 0px;
+    text-align: center;
+    color: black;
+    background-color: white;
+}
