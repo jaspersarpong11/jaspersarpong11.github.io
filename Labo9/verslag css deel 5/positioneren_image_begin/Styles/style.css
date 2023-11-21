@@ -1,0 +1,33 @@
+/*.links{
+    float: left;
+}
+.rechts{
+    float:right;
+
+}
+*/
+
+article{
+    margin: 10px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+
+article:nth-child(even){
+    float: left;
+}
+article:nth-child(odd){
+    float: right;
+}
+article:nth-child(even) img{
+float: left;
+}
+article:nth-child(odd) img{
+float: right;
+}
+
+p{
+    margin: 10px;
+    font-size: 1.25em;
+}
