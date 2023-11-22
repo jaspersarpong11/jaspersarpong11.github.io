@@ -32,7 +32,7 @@ aside{
     width: 25%;
     background: #dddddd;
     border: 1px solid #999999;
-
+    float: right;
 }
 aside p{
     color: #666666;
@@ -48,20 +48,20 @@ aside h3{
 }
 
 /*main*/
-section{
+.main{
     width: 75%;
 }
 
-section > article{
+.main article{
     background-color: white;
     color: black;
    padding: 20px 30px;
 }
 
-section > article p{
+.main article p{
     text-align: justify;
 }
-section > figure{
+.main  figure{
     padding: 20px;
     padding-top: 20px;
 }
@@ -69,10 +69,9 @@ section > figure{
 /*Gallery*/
 .gallery{
 background-color: #999999;
+    float: left ;
 }
-.gallery figure {
 
-}
 .gallery figure img{
     border: 1px dashed white;
     background-color: white;
@@ -85,7 +84,7 @@ background-color: #999999;
 .bottom{
     background-color: #666666;
     color: white;
-    line-height: 2ems;
+    line-height: 2em;
 }
 .bottom article{
     margin-left: 120px;
