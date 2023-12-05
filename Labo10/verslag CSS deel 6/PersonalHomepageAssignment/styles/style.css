@@ -1,0 +1,11 @@
+body{
+    width: 90%;
+    margin: 0px auto;
+}
+
+/*rows*/
+#a,#b,#c,#d{
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+

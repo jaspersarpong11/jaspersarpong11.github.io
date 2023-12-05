@@ -1,0 +1,24 @@
+body{
+    width: 90%;
+}
+.row{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left{
+    line-height: 100px;
+    background-color: lightgrey;
+    margin: 5px;
+}
+.center{
+    line-height: 100px;
+    background-color: grey;
+    margin: 5px;
+}
+.right{
+    line-height: 100px;
+    background-color: lightgrey;
+    margin: 5px;
+}
