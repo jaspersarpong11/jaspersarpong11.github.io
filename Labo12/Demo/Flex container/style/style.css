@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: lightskyblue;
+    font-family: Chalkboard, sans-serif;
+}
+
+h1 {text-align: center;}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+
+}
+section{
+    /*wordt hoirzontal geplaats*/
+    display: flex;
+    background: coral;
+    height: 500px;
+   /* flex-direction: row-reverse;*/
+   /* flex-wrap:wrap;*/
+    /*horizon uitlijnen*/
+    justify-content:space-evenly;
+    /*vertical uitlijnen
+        standard - stretch
+        voor 1 rij*/
+    align-items:center ;
+}
+.grey-box{
+    background: grey;
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+    font-size: 2em;
+}
