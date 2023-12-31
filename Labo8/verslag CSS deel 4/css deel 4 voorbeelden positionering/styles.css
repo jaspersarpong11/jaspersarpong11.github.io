@@ -1,10 +1,11 @@
 div {
-	text-align:center;
+	text-align: center;
 }
 
 .area {
 	width:100px;
 	height:100px;
+	line-height: 100px;
 	background:red;
 	display:inline-block;
 }
@@ -20,7 +21,6 @@ div {
 .floaty{
 	float:left;
 	background:green;
-	clear: both;
 }
 
 .break {

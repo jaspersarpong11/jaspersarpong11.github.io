@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*Variabelen Globaal
+            used everywhere.*/
+      :root{
+          --widthNav: 20%;
+          --widthArticle: calc(100% - var(--widthNav));
+      }
+        body{
+            display:flex;
+        }
+        nav{
+            flex-basis:50%;
+            flex-basis: var(--widthNav);
+        }
+        article{
+            flex-basis:50%;
+            flex-basis:var(--widthArticle);
+        }
+        article,nav{
+            color:white;
+            padding:30px;
+            box-sizing:border-box;
+        }
+        article{
+            background-color: blue;
+        }
+        nav{
+            background: orange;
+        }
+    </style>
+</head>
+<body>
+<body>
+<nav>
+    <h1>Nav</h1>
+</nav>
+<article>
+    <h1>Article</h1>
+</article>
+</body>
+</html>
+
+</body>
+</html>

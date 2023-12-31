@@ -2,13 +2,18 @@
 
 section div {
     color: white;
+    font-size: 20px;
     padding: 20px;
     text-align: center;
     font-size: 3em;
-    border: 10px solid white
-
 }
-
+/*grid container*/
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1em 2em;
+}
 /* specific item styles */
 
 .item-1 {
@@ -37,4 +42,23 @@ section div {
 }
 .item-9 {
     background: #4464a1;
+
+}
+
+
+
+/*mediaquary*/
+@media only screen and (max-width: 760px){
+    .grid-container{
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 1em 2em;
+    }
+    .item-3{
+    grid-area: 5/1/5/3;
+    }
+    .item-9{
+        grid-area: 1/1/1/1;
+    }
+
 }

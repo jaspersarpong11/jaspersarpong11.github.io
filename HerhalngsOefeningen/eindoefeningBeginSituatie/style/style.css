@@ -1,0 +1,69 @@
+/*Mobile first -> Standard mobile*/
+body{
+    margin: 0px;
+    font-size: 1rem;
+}
+
+.caption {
+    font-family: helvetica;
+    font-size: 16px;
+    margin-top: 12px;
+}
+/*Grid contianer*/
+.grid{
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    min-height: 800px;
+}
+
+.gridHeader {
+    background-color: #dcd6fe;
+}
+
+.gridNav {
+    background-color: #c6c0ff;
+    grid-area: 2/ 1;
+}
+
+.gridMain {
+    background-color: #f9f6d2;
+}
+
+.gridAside {
+    background-color: #d4ffd1;
+}
+
+.gridFooter {
+    background-color: #ffd1d1;
+}
+
+
+/*Media queries ---> Desktop*/
+@media only screen and (min-width:768px){
+
+    .grid{
+        grid-template-areas:
+        'header header header header header'
+        'nav    main   main   main   aside'
+        '.      nav    main   aside-1  .'
+        'footer footer footer footer footer'  ;
+        grid-template-columns: 5% 10% auto 10% 5%;
+
+    }
+    .gridHeader{
+        grid-area: header;
+    }
+    .gridNav{
+        grid-area:nav;
+
+    }
+    .gridMain{
+        grid-area: main;
+    }
+    .gridAside{
+        grid-area: aside;
+    }
+    .gridFooter{
+        grid-area:footer;
+    }
+}
