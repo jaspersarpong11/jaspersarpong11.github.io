@@ -4,3 +4,12 @@
     height: auto;
     display: block;
 }
+
+/*header*/
+header{
+    border-bottom: 1px solid #ebe8e8;
+}
+header > img{
+    height: 50px;
+
+}
